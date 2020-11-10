@@ -3,9 +3,11 @@ using System.Collections;
 
 public class Loops : MonoBehaviour {
     void Start() {
-        string str = "Hello";
-        foreach( char chr in str ) {
-            print( chr );
+        for( int i = 0; i < 10; i++ ) {
+            print( i );
+            if( i == 3 ) {
+                break;
+            }
         }
     }
 }
