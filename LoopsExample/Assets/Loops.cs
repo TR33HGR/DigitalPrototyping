@@ -3,10 +3,10 @@ using System.Collections;
 
 public class Loops : MonoBehaviour {
     void Start() {
-        int i = 0;
-        while(i < 3) {
+        int i = 10;
+        do{
             print( "Loop: " + i );
             i++;
-        }
+        } while( i < 3 );
     }
 }
