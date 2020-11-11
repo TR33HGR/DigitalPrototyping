@@ -19,6 +19,7 @@ public class ArrayEx : MonoBehaviour
         string str = "";
         foreach(string sTemp in sArray) {
             str += "|" + sTemp;
+            if(sTemp == null) break;
         }
         print(str);
         
