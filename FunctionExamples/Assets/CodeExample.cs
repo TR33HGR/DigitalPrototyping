@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CodeExample : MonoBehaviour
 {
+    public int numTimesCalled = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,13 @@ public class CodeExample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        numTimesCalled++;
+        CountUpdates();
+    }
+
+    void CountUpdates()
+    {
+        string outputMessage = "Updates: " + numTimesCalled;
+        print(outputMessage);
     }
 }
