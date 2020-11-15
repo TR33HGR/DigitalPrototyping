@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class CubeSpawner : MonoBehaviour
+public class CubeSpawner2 : MonoBehaviour
 {
   public GameObject cubePrefabVar;
 
