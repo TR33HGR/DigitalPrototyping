@@ -229,7 +229,7 @@ MonoBehaviour:
   velocityMatchingAmt: 0.01
   flockCenteringAmt: 0.15
   collisionAvoidanceAmt: -0.5
-  mouseAttractAmt: 0.01
+  mouseAttractionAmt: 0.01
   mouseAvoidanceAmt: 0.75
   mouseAvoidanceDist: 15
   velocityLerpAmt: 0.25
